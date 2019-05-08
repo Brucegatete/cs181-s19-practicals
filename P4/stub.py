@@ -30,7 +30,12 @@ class Learner(object):
         # You might do some learning here based on the current state and the last state.
 
         # You'll need to select and action and return it.
-        # Return 0 to swing and 1 to jump.
+        # Return 0 to swing and 1 to jump.x
+        
+        print("##################################################################################################################")
+        print(state)
+        print(" ")
+
 
         new_action = npr.rand() < 0.1
         new_state  = state
